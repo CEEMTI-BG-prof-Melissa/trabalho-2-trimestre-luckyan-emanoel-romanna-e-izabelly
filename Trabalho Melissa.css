@@ -1,0 +1,44 @@
+nav ul>li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+section p+p {
+    margin-top: 10px;
+}
+
+a[href^="#"] {
+    color: blue;
+    text-decoration: none;
+}
+
+a[href$="polimorfismo"] {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid orange;
+}
+
+nav ul li:first-child a {
+    color: red;
+}
+
+nav ul li:last-child a {
+    color: green;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+/*
